@@ -12,5 +12,9 @@ public class Main extends secondLargest{
             nums[i]=s.nextInt();
         }
         System.out.println(a.sLargest(nums));
+
+        int[] nums1 = {1,2,3,4};
+        productOfArrayExceptItself obj=new productOfArrayExceptItself();
+        System.out.println(Arrays.toString(obj.productExceptSelf(nums1)));
     }
 }
